@@ -1,0 +1,18 @@
+{
+    "include": [
+        "./*"
+    ],
+    "compilerOptions": {
+        "target":"ES3",
+        "module":"System",
+        // 编译到某个文件夹
+        "outDir": "./dist",
+        // 编译到某个文件
+        // "outFile": "./dist/kk.js",
+        //不编译注释
+        "removeComments": true,
+        //当出现错误时不编译
+        "noEmitOnError": true
+    }
+
+}
