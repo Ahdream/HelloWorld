@@ -24,7 +24,7 @@ enum sex{
     female = 1
 }
 let f: {name:string,sex:sex}
-f = {name:'ui',sex:sex.female}
+f = {name:'ui',sex:sex.male}
 
 console.log('f :',f);
 
