@@ -3,8 +3,8 @@
         "./*"
     ],
     "compilerOptions": {
-        "target":"ES3",
-        "module":"System",
+        "target":"ES2015",
+        "module":"ES2015",
         // 编译到某个文件夹
         "outDir": "./dist",
         // 编译到某个文件
@@ -12,7 +12,15 @@
         //不编译注释
         "removeComments": true,
         //当出现错误时不编译
-        "noEmitOnError": true
+        "noEmitOnError": true,
+
+        // 严格模式,变量不能直接赋值，要加声明符号
+        "alwaysStrict": true,
+        // 不能默认any属性
+        "noImplicitAny": true,
+        // 要声明this
+        "noImplicitThis": true,
+        "strictNullChecks": true
     }
 
 }

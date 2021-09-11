@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("gg==>",{name:"渐变色",age:42}),console.log("hi","你好"),console.log("sum=>",688),console.log("promise",Promise)})();

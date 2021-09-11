@@ -28,5 +28,18 @@ f = {name:'ui',sex:sex.female}
 
 console.log('f :',f);
 
+function fn(a:number,b:number){
+    return a + b
+}
 
+function fn1(this:Window){
+    console.log('this=>',this)
+    return this
+}
 
+let box1 = document.getElementById('box1')
+if(box1!==null){
+    box1.addEventListener('click',function(){
+        alert('2736')
+    })
+}
